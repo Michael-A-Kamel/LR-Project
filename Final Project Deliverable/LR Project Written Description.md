@@ -20,4 +20,4 @@ SciKit Learn for machine learning models
 Matplotlib & Seaborn for data visualization
 
 ## Communication
-After conducting my analysis, I shared my findings with my cohort via this [presentation](link).
+After conducting my analysis, I shared my findings with my cohort via this [presentation](https://github.com/mkamel96/LR-Project/blob/main/Final%20Project%20Deliverable/LR%20Project%20Presentation.pdf).
