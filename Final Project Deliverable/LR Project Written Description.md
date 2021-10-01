@@ -8,10 +8,10 @@ The goal of this analysis was to utilize linear regression models to predict an 
 This need for this project stems from the New York Jets’ recent struggles offensively over the past 5 years. The team is significantly below average in most metrics, and their record is evidence of this. This led me to my analysis, which was to study key offensive metrics and their relationship to DVOA. A better grasp on these relationships could potentially help the Jets frame their rebuilding process appropriately, both in terms of coaching and resources expended. 
 
 ## Data
-The primary source of my data was gathered from Pro Football Reference via web scraping. I utilized 27 years of football data, amounting to 851 data points to analyze. The features I used can be categorized in 3 ways: Play call per Down, Play call per Game Situation (winning, losing, or tied), and 1st down Conversion Rates. The other data source was from Football Outsiders, in which I utilized their DVOA metric as my target variable. This is a widely accepted metric to rate teams in comparison to a baseline. 
+My primary data source was gathered by web scraping Pro Football Reference. I utilized 27 years of football data, amounting to 851 data points to analyze. The features I used can be categorized in 3 ways: Play call per Down, Play call per Game Situation (winning, losing, or tied), and 1st down Conversion Rates. My other data source was scraped from Football Outsiders, in which I utilized their DVOA metric as my target variable. This is a widely accepted metric to rate teams in comparison to a baseline. 
 
 ## Algorithms
-
+Linear Regression, Lasso Regression, Ridge Regression, Polynomial Regression, and Polynomial Lasso Regression were all considered before choosing to use Linear Regression. Most of the models had very similar validation and test R^2 scores, leading me to choose the model with the simplest breakdown. Polynomial Lasso Regression was essentially even with Linear Regression in terms of results, but I choose Linear Regression for its more interpretable coefficients. I had tried a couple versions of feature engineering, but was only able to find very slight increases to R^2 with variables that again wouldn't be very interpretable. My Linear Regression Validation R^2 score was .7723 and my R^2 Test score was .7359.
 
 ## Tools
 BeautifulSoup & Selenium for Web Scraping
