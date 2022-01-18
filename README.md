@@ -16,7 +16,7 @@ Linear Regression, Lasso Regression, Ridge Regression, Polynomial Regression, an
 ## Tools
 **Pandas** - Data Munging
 **BeautifulSoup / Selenium** - Web Scraping  
-**scikit-learn** - Machine Learning Models  
+**scikit-learn** - Machine Learning Models   
 **Matplotlib / Seaborn** - Data Visualization
 
 ## Communication
