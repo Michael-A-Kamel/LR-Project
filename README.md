@@ -14,7 +14,7 @@ My primary data source was gathered by web scraping Pro Football Reference. I ut
 Linear Regression, Lasso Regression, Ridge Regression, Polynomial Regression, and Polynomial Lasso Regression were all considered before choosing to use Linear Regression. Most of the models resulted in very similar validation and test R^2 scores, leading me to choose the model with the simplest breakdown and highest interpretability. Polynomial Lasso Regression was essentially even with Linear Regression in terms of results, but I choose Linear Regression for its more interpretable coefficients. I had tried a couple versions of feature engineering, but was only able to find very slight increases to R^2 with variables that again wouldn't be very interpretable. My Linear Regression Validation R^2 score was .7723 and my R^2 Test score was .7359.
 
 ## Tools
-**Pandas** - Data Munging
+**Pandas** - Data Munging  
 **BeautifulSoup / Selenium** - Web Scraping  
 **scikit-learn** - Machine Learning Models   
 **Matplotlib / Seaborn** - Data Visualization
